@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = getenv('http://moodleipc.herokuapp.com');
-$CFG->dataroot  = getenv('/tmp');
+$CFG->dataroot  = getenv('tmp');
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
